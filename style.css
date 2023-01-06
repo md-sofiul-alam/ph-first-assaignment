@@ -1,0 +1,32 @@
+header{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+}
+.header-motto{
+    font-family: arial;
+    font-size: 65px;
+    text-align: right;
+    padding-top: 10%;
+    padding-left: 60%;
+    padding-right: 10%;
+    color: white;
+}
+.header-text{
+    font-size: 25px;
+    text-align: right;
+    padding-left: 60%;
+    padding-right: 10%;
+    color: rgb(241, 225, 225);
+}
+.header-btn{
+    float: right;
+    margin-right: 10%;
+    font-size: 30px;
+    color: aqua;
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 5px;
+    
+}
