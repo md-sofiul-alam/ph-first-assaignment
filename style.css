@@ -104,7 +104,8 @@ section > h1{
     height: 300px;
     width: 1400px;
     background-size: 1600px 300px;
-    margin-left: 100px ;
+    margin-left: 200px ;
+    border-radius: 10px;
 }
 .minute h1{
     width: 400px;
