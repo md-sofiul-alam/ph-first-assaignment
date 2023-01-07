@@ -1,5 +1,30 @@
+nav > h1 > span{
+    color: rgb(11, 174, 238);
+}
+nav > h1{
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    align-items: center;
+    background-color: rgb(196, 240, 225);
+    width: 1600px;
+    height: 50px;
+}
+.nav-btn{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(11, 174, 238) ;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+/* header session */
 header{
-    background-image: url(images/banner/banner3.png);
+    background-image: url('images/banner/banner3.png');
     background-repeat: no-repeat;
     width: 1600px;
     height: 808px;
@@ -13,7 +38,7 @@ header{
     padding-right: 10%;
     color: white;
 }
-.header-text{
+.header-text {
     font-size: 25px;
     text-align: right;
     padding-left: 60%;
@@ -25,8 +50,79 @@ header{
     margin-right: 10%;
     font-size: 30px;
     color: aqua;
-    background-color: aliceblue;
+    background-color: rgb(170, 173, 175);
     border-radius: 7px;
     padding: 5px;
-    
+
+    /* Article of failurity start from here */
+
+}
+.failurity{
+    display: flex;
+    margin-left:200px;
+    margin-right: 100px;
+}
+.article-text{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: left;
+    padding-left:20%;
+    padding-right: 20%;
+}
+.fail-list{
+    text-align: left;
+    list-style: cross-fade();
+}
+
+/* My plane */
+section > h1{
+   width: 150px;
+   text-align: center;
+   background-color: rgb(196, 240, 225);
+  margin: auto;
+}
+.skill-grow{
+    display: flex;
+    margin-left:20% ;
+    margin-top: 50px;
+}
+.skill-grow div{
+    position: relative;
+    margin: 20px 40px;
+    text-align: center;
+}
+/* Banner */
+.minute{
+    background:url("images/watch.png"), linear-gradient(to right, yellow, white);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1400px;
+}
+.minute h1{
+    width: 400px;
+    padding: 80px;
+}
+.minute button{
+    background-color: white;
+    color:rgb(11, 174, 238) ;
+    padding: 5px 10px;
+    margin-left: 100px;
+    font-size: 25px;
+    border-radius: 7px;
+}
+/* Address  */
+address{
+    background-color: black;
+    color: whitesmoke;
+    width: 1600px;
+}
+address p{ 
+    width: 400px;
+}
+.social-media{
+    display:flex ;
+}
+.subscribe{
+    display: inline;
+    color:white;
 }
