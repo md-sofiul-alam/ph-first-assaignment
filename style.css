@@ -85,7 +85,8 @@ section > h1{
    width: 150px;
    text-align: center;
    background-color: rgb(196, 240, 225);
-  margin: auto;
+   margin: auto;
+   margin-top: 50px;
 }
 .skill-grow{
     display: flex;
@@ -139,10 +140,11 @@ address p{
 .social-media{
     display:inline ;
 }
+/* subscribe area */
 .subscribe{
     display: inline;
     color:white;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 500px;
 }
 .subscribe-headline{
@@ -153,11 +155,13 @@ address p{
 .subscribe-email{
     font-size: 20px;
     border-radius: 7px;
+    padding: 10px;
 }
 .subscribe-btn{
     margin: 20px 0 ;
     font-size: 20px;
     color: white;
+    padding: 5px 10px;
     background-color: rgb(98, 98, 233);
     border-radius: 7px;
 }
@@ -168,6 +172,7 @@ footer{
     background-color: pink;
     text-align: center;
     width: 1680px;
+    padding: 7px 0;
     margin-left: 50px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
